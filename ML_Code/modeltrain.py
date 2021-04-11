@@ -73,6 +73,6 @@ history_1 = model.fit(train_generator,
                shuffle=True)
 from keras.models import load_model
 
-model.save('cropdiseasev1.h5')
+
 
 

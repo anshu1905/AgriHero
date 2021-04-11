@@ -80,12 +80,12 @@ String col;
 void setup() {
   Serial.begin(115200); 
   dht.begin();
-  
+
+    pinMode(Gas_digital, INPUT);
   pinMode(rainDigital,INPUT);
 
   pinMode(SensorPin,INPUT);
   
-  pinMode(Gas_digital, INPUT);
 
   pinMode(S0, OUTPUT);
   pinMode(S1, OUTPUT);
