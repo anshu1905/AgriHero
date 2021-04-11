@@ -28,9 +28,10 @@ def prepare(img_path):
     x = image.img_to_array(img)
     x = x/255
     return np.expand_dims(x, axis=0)
+
 result = model.predict([prepare(r'C:\Users\hp\AppData\Local\Programs\Python\Python36\leaftest.jpg')])
-disease=image.load_img(r'C:\Users\hp\AppData\Local\Programs\Python\Python36\leaftest.jpg')
-plt.imshow(disease)
+d=image.load_img(r'C:\Users\hp\AppData\Local\Programs\Python\Python36\leaftest.jpg')
+plt.imshow(d)
 
 import numpy as np
 classresult=np.argmax(result,axis=-1)

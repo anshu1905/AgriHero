@@ -211,6 +211,5 @@ def account():
 #     user_id =
 #     form = ResetForm2()
 
-
-# if __name__ == '__main__':
-#     app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)

@@ -13,8 +13,8 @@ import json
 
 import datetime
 
-hum="0"
 temp="0"
+hum="0"
 rain="0"
 soil="0"
 gas="0"
