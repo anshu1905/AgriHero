@@ -3,8 +3,7 @@
 
 <img src="static/logo.png" alt="logo" width="200"/>
 
-**NOTE**:
-*The Project is still in progress and all the code files are not aviablable on github yet.*
+
 
 
 ## Project Abstract
